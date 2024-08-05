@@ -10,11 +10,9 @@ import (
 // Строки не будут одинаковой длины, но они могут быть пустыми ( zero длина ).
 
 func main() {
-
 	str := Solution("1", "22")
 
 	fmt.Println(str)
-
 }
 
 func Solution(a, b string) string {
